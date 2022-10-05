@@ -11,3 +11,4 @@
 11-lists - lists all files in the current directory and the parent of the working directory and the /boot directory (in this order), in long format
 12-file_type -  Prints the type of the file named
 13-symbolic_link - Create a symbolic link to /bin/ls, named __ls__
+14-copy_html - Copies all the HTML files from the current working directory to the parent of the working directory
