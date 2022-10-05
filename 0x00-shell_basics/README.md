@@ -9,3 +9,4 @@
 9-firstdirdeletion - Delete the directory my_first_directory
 10-back - Navigate to the previous directory
 11-lists - lists all files in the current directory and the parent of the working directory and the /boot directory (in this order), in long format
+12-file_type -  Prints the type of the file named
