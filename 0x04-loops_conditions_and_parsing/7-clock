@@ -2,7 +2,7 @@
 # Displays the time for 12 hours and 59 minutes
 h=0
 m=0
-while ((h < 12))
+while ((h < 13))
 do
 	while ((m < 60))
 	do
