@@ -8,6 +8,10 @@ while [ $m -le 60 ]
 do
 	if [ $h -eq 12 ]
 	then
+		for x in {1..59}
+		do
+			echo "$x"
+		done
 		break
 	fi
 	if [ $m -eq 60 ]
