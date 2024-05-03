@@ -8,9 +8,11 @@ while [ $m -le 60 ]
 do
 	if [ $h -eq 12 ]
 	then
-		for x in {1..59}
+		x=1
+		while [ $x -lt 60 ]
 		do
 			echo "$x"
+			((x++))
 		done
 		break
 	fi
