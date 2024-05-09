@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Pings an IP address passed as an argument.
+if [ "$#" -gt 0 ]
+then
+	for (( num=0; num<5; num++ ))
+	do
+		ping "$1"
+		((num++))
+	done
+else
+	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+fi
