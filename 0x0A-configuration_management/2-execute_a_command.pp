@@ -1,4 +1,4 @@
 # This manifest kills a process named killmenow
-exec { 'Terminate killmenow':
-  command => 'pkill "killmenow"',
+exec { 'pkill "killmenow"':
+  path => '/usr/bin/:/usr/',
 }
