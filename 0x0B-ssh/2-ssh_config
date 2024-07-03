@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-# This is a client configuration file
 Host 171602-web-01
 	IdentityFile ~/.ssh/school
 	PasswordAuthentication no
