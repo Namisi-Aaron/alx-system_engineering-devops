@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script configures a new Ubuntu machine
+sudo apt install -y nginx
+sudo ufw allow 'Nginx HTTP'
+sudo sercive ngnix restart
