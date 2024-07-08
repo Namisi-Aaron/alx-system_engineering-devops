@@ -3,4 +3,7 @@
 sudo apt update
 sudo apt install -y nginx
 sudo ufw allow 'Nginx HTTP'
-sudo sercive ngnix restart
+sudo chown -R "$USER":"$USER" /var/www/html
+sudo chmod -R 755 /var/www
+echo -e 'Hello World!' > /var/www/html/index.ngnix-debian.html
+sudo service ngnix restart
